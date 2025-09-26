@@ -10,3 +10,5 @@
 /.clang-tidy
 **/.test
 /.appanalyzer
+
+/entry/src/main/ets/pages/03-practice
