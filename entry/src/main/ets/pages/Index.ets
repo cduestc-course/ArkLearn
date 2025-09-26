@@ -1,25 +1,7 @@
-//代码块
 @Entry
 @Component
 struct Index{
   build(){
-    Column(){
-      Text('今日头条学鸿蒙~')
-        .width('100%')
-        .height(40)
-        .fontSize(20)
-        .fontWeight(FontWeight.Bolder)
-      Row(){
-        Text('置顶')
-          .width(50)
-          .fontColor(Color.Red)
-        Text('新华社')
-          .width(80)
-          .fontColor(Color.Grey)
-        Text('5666评论')
-          .width(80)
-          .fontColor(Color.Grey)
-      }.width('100%')
-    }.width('100%')
+
   }
 }
