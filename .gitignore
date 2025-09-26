@@ -11,4 +11,8 @@
 **/.test
 /.appanalyzer
 
+
 /entry/src/main/ets/pages/03-practice
+*.DS_Store
+
+
