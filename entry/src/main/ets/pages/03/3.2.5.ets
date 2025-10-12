@@ -9,7 +9,8 @@ struct Index {
       })
       TextInput({
         placeholder: '请输入密码'
-      }).type(InputType.Password)
+      })
+        .type(InputType.Password)
       Button('登录')
         .width(200)
     }

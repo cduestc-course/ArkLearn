@@ -14,7 +14,7 @@ struct BaiDuCase{
         Text('都市')
           .width(50)
           .height(30)
-          .backgroundColor(Color.Orange)
+          .backgroundColor(Color.Orange)//"#ffffff"->"1111111111"
         Text('生活')
           .width(50)
           .height(30)

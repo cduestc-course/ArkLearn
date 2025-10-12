@@ -21,9 +21,3 @@ struct Index {
   }
 }
 
-@Component
-struct xxx {
-  build() {
-    Column()
-  }
-}

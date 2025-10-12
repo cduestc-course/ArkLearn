@@ -12,7 +12,8 @@
 /.appanalyzer
 
 
-/entry/src/main/ets/pages/03-practice
+/entry/src/main/ets/pages/practice
+/entry/src/main/ets/pages/materials
 *.DS_Store
 
 
