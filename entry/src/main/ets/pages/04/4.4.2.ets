@@ -6,7 +6,7 @@ struct RelativeCase {
       RelativeContainer() {
         Row(){}
         .width('33%')
-        .aspectRatio(1)
+        .aspectRatio(1) // ratio = width/height
         .alignRules({
           top: { anchor: '__container__', align: VerticalAlign.Top },
           middle: { anchor: '__container__', align: HorizontalAlign.Center }

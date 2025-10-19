@@ -4,7 +4,7 @@ struct Index {
   build() {
     // 层叠布局
     Stack({
-      // alignContent: Alignment.Bottom
+      alignContent: Alignment.Bottom
     }) {
       Text('aaa')
         .width(250)

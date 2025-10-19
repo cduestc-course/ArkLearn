@@ -13,7 +13,7 @@ struct GridCase {
     .width("100%")
     .height("100%")
     .columnsTemplate("1fr 1fr")
-    .columnsGap(10)
+    .columnsGap(50)
     .rowsGap(10)
     .padding(10)
 

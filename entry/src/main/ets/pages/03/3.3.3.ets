@@ -22,11 +22,12 @@ struct Index {
           bottom: 40
         })
         .border({ //JSON
-          width:{left:3,right:1},
+          width:{left:3,right:1, top:2},
           color:{left:Color.Red,right:Color.Green},
           style:{
             left: BorderStyle.Solid,
-            right:BorderStyle.Dashed
+            right:BorderStyle.Dashed,
+            top:BorderStyle.Dotted
           }
         })
     }

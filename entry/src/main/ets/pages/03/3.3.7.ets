@@ -5,7 +5,7 @@ struct Index {
     Column() {
       Row(){
         Text('左侧')
-          .layoutWeight(2)
+          .layoutWeight(1)
           .height(40)
           .backgroundColor(Color.Pink)
         Text('中间')
@@ -14,6 +14,7 @@ struct Index {
           .backgroundColor(Color.Orange)
         Text('右侧')
           .width(50)
+          // .layoutWeight(1)
           .height(40)
           .backgroundColor(Color.Red)
       }

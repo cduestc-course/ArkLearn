@@ -3,7 +3,7 @@
 struct Index {
   build() {
     Column(){
-      Text('我是圆角')
+      Image('我是圆角')
         .width(100)
         .height(60)
         .backgroundColor(Color.Pink)
