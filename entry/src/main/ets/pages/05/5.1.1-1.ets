@@ -11,12 +11,15 @@ struct Event {
             .backgroundColor('#f4f5f6')
             .width('100%')
             .onChange((value) => {
+              // 监听系统组件的事件的话, 回调函数的参数都是有具体类型,一般的话不用给类型 (value:string)
               promptAction.showToast({ message: value })
+              // this.getUIContext().getPromptAction().showToast({message:value})
             })
             .onSubmit(() => {
               AlertDialog.show({
                 message:'登录失败'
               })
+              // this.getUIContext().showAlertDialog({message:'登录失败'})
             })
         }.padding({
           left: 20,
@@ -30,6 +33,7 @@ struct Event {
               promptAction.showDialog({
                 message: '登录成功'
               })
+              // this.getUIContext().getPromptAction().showDialog({message: '登录成功'})
             })
 
         }.padding({
@@ -40,6 +44,7 @@ struct Event {
       }
       .width('100%')
     }
+    .backgroundColor('#ccc')
     .height('100%')
   }
 }
