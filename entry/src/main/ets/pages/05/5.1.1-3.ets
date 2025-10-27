@@ -1,6 +1,15 @@
 @Entry
 @Component
 struct EventCase {
+  ifelse() {
+    let i = 0
+    if(i<0) {
+      //xxx
+    }
+    else if(i>100) {
+      //xxx
+    }
+  }
   // 登录方法
   login() {
     this.getUIContext().getPromptAction().showToast({ message: '登录成功' })
@@ -16,7 +25,7 @@ struct EventCase {
           .width(200)
           .onAreaChange((oldValue:Area, newValue:Area)=>{
             this.getUIContext().showAlertDialog({
-              message:`oldValue:${JSON.stringify(oldValue)} \n newValue:${JSON.stringify(newValue)}`
+              message:`oldValue:${JSON.stringify(oldValue)}\n newValue:${JSON.stringify(newValue)}`
             })
           })
         TextInput({ placeholder: '请输入用户名', text:'' })
@@ -34,6 +43,7 @@ struct EventCase {
             this.login()
           })
         Button("登录")
+          .enabled(false)
           .width('100%')
           .onClick(this.loginToButton)//?
       }

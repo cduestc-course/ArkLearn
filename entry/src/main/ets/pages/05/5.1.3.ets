@@ -30,10 +30,10 @@ struct StateCase {
       Text(JSON.stringify(this.p))
       Row({ space: 15 }) {
         Text("姓名：")
-        TextInput({ text: this.p.name }).layoutWeight(1)
-          .onChange(value => {
-            this.p.name = value
-          })
+        TextInput({ text: $$this.p.name }).layoutWeight(1)
+          // .onChange(value => {
+          //   this.p.name = value
+          // })
       }.padding(10)
       Row({ space: 15 }) {
         Text("年龄：")
@@ -97,11 +97,11 @@ struct StateCase {
             // 1
             // this.p.age++
             // 2
-            // this.p.address = {
-            //   province: this.p.address.province,
-            //   city: this.p.address.city,
-            //   area:this.p.address.area
-            // }
+            this.p.address = {
+              province: this.p.address.province,
+              city: this.p.address.city,
+              area:this.p.address.area
+            }
           })
 
       }

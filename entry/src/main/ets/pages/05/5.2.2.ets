@@ -34,9 +34,6 @@ struct ForEachCase {
           Text('支付记录')
             .layoutWeight(1)
             .textAlign(TextAlign.Center)
-            .margin({
-              left: 30
-            })
         }
         .width('100%')
         .padding(16)
