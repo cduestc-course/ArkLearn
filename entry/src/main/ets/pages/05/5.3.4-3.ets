@@ -58,7 +58,7 @@ struct Index {
           })
         }
       }) {
-        Column() {
+        Row() {
           Text('传递的内容, 测试~')
           Text('传递的内容, 测试~')
         }

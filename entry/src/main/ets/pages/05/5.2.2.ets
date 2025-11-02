@@ -62,6 +62,7 @@ struct ForEachCase {
           // .padding(20)
 
           // 使用循环组件，依次生成结构体
+
           ForEach(this.PayRecordList, (item: PayRecord) => {
             Column({ space: 20 }) {
               Text(item.OrderName)

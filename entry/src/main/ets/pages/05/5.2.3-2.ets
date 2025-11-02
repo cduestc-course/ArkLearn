@@ -27,7 +27,6 @@ struct RefreshCase {
             }
           })
         }
-
         .onScrollStart(() => {
           this.isEnd = false
         })

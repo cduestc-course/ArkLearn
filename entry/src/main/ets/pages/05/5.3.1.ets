@@ -14,7 +14,6 @@ struct Extends_demo {
           .backgroundColor(Color.Orange)
           .fontColor(Color.White)
           .fontSize(30)
-
           .onClick(() => {
             AlertDialog.show({
               message: '轮播图 1'

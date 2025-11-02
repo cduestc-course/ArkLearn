@@ -14,8 +14,6 @@ struct MyComponent {
     console.log('Hi!')
   }
 
-
-
   build() {
     Row() {
       Text('自定义组件' + this.count)
@@ -36,7 +34,9 @@ struct Index {
   build() {
     Column() {
       MyComponent()
-      MyComponent({ count: 10 })
+      MyComponent({ count: 10, sayHello: ()=>{
+
+      }})
       MyComponent()
     }
     .padding(20)

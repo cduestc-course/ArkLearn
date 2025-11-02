@@ -42,7 +42,7 @@ struct Extends_demo {
           .bannerItem(Color.Green, '轮播图3号')
       }
       .width('100%')
-      .height(160)·
+      .height(160)
     }
     .width('100%')
     .height('100%')
