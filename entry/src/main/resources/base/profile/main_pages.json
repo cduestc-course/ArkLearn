@@ -1,5 +1,18 @@
 {
   "src": [
-    "pages/Index"
+    "pages/Index",
+
+    "pages/06/6.2.3",
+    "pages/06/6.2.3re2",
+    "pages/06/6.2.3re3",
+    "pages/06/6.2.3re4",
+    "pages/06/6.2.3re4-modify",
+
+    "pages/06/6.2.4A-login",
+    "pages/06/6.2.4A-login-ability",
+    "pages/06/6.2.4B-display",
+
+    "pages/06/6.2.5",
+    "pages/06/6.2.8"
   ]
 }

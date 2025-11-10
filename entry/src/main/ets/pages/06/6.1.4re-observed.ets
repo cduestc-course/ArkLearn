@@ -54,7 +54,7 @@ struct ObservedAndLink {
                message: JSON.stringify(this.personList)
               })
 
-              // this.personList.splice(index, 1, item)
+              this.personList.splice(index, 1, item)
             }
           })
         })

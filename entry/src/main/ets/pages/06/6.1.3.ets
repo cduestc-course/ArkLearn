@@ -47,7 +47,6 @@ struct ParentIndex{
             y:this.shakenX
           })
           .zIndex(2)
-
         Text('抖音')
           .fontSize(60)
           .fontWeight(FontWeight.Bold)
