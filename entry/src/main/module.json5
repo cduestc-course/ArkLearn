@@ -9,9 +9,9 @@
     ],
     "deliveryWithInstall": true,
     "installationFree": false,
-    "requestPermissions":[
+    "requestPermissions": [
       {
-        "name" : "ohos.permission.INTERNET"
+        "name": "ohos.permission.INTERNET"
       }
     ],
     "pages": "$profile:main_pages",
@@ -42,6 +42,15 @@
         "description": "$string:WantAbility_desc",
         "icon": "$media:layered_image",
         "label": "$string:WantAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background"
+      },
+      {
+        "name": "Want2Ability",
+        "srcEntry": "./ets/want2ability/Want2Ability.ets",
+        "description": "$string:Want2Ability_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:Want2Ability_label",
         "startWindowIcon": "$media:startIcon",
         "startWindowBackground": "$color:start_window_background"
       }

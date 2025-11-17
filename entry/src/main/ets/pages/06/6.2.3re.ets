@@ -1,4 +1,5 @@
 const userInfo: Record<string, ResourceStr> = {
+  // Set<T1,T2>
   'age': '18',
   'nickName': '一个小码农',
   'gender': '男',

@@ -23,7 +23,7 @@ export class PreferencesClass {
     const store = preferences.getPreferencesSync(content,{name:storeName})
     return store.getSync(PreferencesClass.tokenKey,'')
   }
-
+  //   删除仓库中字段
   static delToken(content:Context, storeName:string=PreferencesClass.defaultStore) {
     const store = preferences.getPreferencesSync(content,{name:storeName})
     store.deleteSync(PreferencesClass.tokenKey)

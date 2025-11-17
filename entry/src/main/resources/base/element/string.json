@@ -19,6 +19,14 @@
     {
       "name": "WantAbility_label",
       "value": "label"
+    },
+    {
+      "name": "Want2Ability_desc",
+      "value": "description"
+    },
+    {
+      "name": "Want2Ability_label",
+      "value": "label"
     }
   ]
 }

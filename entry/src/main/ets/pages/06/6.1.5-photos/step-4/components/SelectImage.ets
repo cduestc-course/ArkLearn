@@ -1,4 +1,3 @@
-@Preview
 @Component
 struct SelectImage {
   @Prop

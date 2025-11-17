@@ -28,19 +28,30 @@ export default class EntryAbility extends UIAbility {
     // Main window is created, set main page for this ability
     hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onWindowStageCreate');
 
-    // 6.2.8
-    windowStage.loadContent('pages/06/6.2.8', (err) => {
+    // MTPrac
+    windowStage.loadContent('pages/06/MTPrac/MTIndex', (err) => {
       if (err.code) {
         hilog.error(DOMAIN, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err));
         return;
       }
       hilog.info(DOMAIN, 'testTag', 'Succeeded in loading the content.');
+
+      PersistentStorage.persistProp('cart_list', [])
     });
 
+    // 6.4
+    // windowStage.loadContent('pages/06/6.4', (err) => {
+    //   if (err.code) {
+    //     hilog.error(DOMAIN, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err));
+    //     return;
+    //   }
+    //   hilog.info(DOMAIN, 'testTag', 'Succeeded in loading the content.');
+    // });
+
     // 6.2.6 Preferences
-    // PreferencesClass.delToken(this.context)
+    // // PreferencesClass.delToken(this.context)
     // let token = PreferencesClass.getToken(this.context)
-    // console.log('tokennnnnnn:',token)
+    // console.log('token:',token)
     // let pagePath = 'pages/06/6.2.5'
     // if(token !== '') pagePath = 'pages/06/6.2.4B-display'
     // windowStage.loadContent(pagePath, (err) => {
@@ -62,7 +73,8 @@ export default class EntryAbility extends UIAbility {
     //   hilog.info(DOMAIN, 'testTag', 'Succeeded in loading the content.');
     //
     //   PersistentStorage.persistProp('userInfo','')
-    //
+    //   // PersistentStorage.deleteProp('userInfo')
+
     // });
 
     // 6.2.4-login AppStorage // pages/06/6.2.4A-login-ability

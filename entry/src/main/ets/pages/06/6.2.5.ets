@@ -29,7 +29,7 @@ struct PersistentStorageCase {
       message:'成功存储'
     })
 
-    PreferencesClass.setToken(this.getUIContext().getHostContext()!,'yyyytyyy')
+    // PreferencesClass.setToken(this.getUIContext().getHostContext()!,'xxxxxx')
   }
   build() {
     Row() {

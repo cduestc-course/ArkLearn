@@ -30,9 +30,12 @@ struct Index4 {
           .textAlign(TextAlign.Center)
         Text('修改')
           .onClick(() => {
-            router.pushUrl({
+            router.pushUrl({//pushUrl
               url:'pages/06/6.2.3re4-modify'
             })
+            // this.getUIContext().getRouter().pushUrl({
+            //   url:''
+            // })
           })
       }.width('100%')
       .padding(20)
