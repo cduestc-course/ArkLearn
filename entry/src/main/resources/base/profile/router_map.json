@@ -1,0 +1,49 @@
+{
+  "routerMap" : [
+    {
+      "name" : "WLAN",
+      "pageSourceFile"  : "src/main/ets/pages/07/NavigationDemo/PageOne.ets",
+      "buildFunction" : "PageOneBuilder"
+    },
+    {
+      "name" : "Bluetooth",
+      "pageSourceFile"  : "src/main/ets/pages/07/NavigationDemo/PageOne.ets",
+      "buildFunction" : "PageOneBuilder"
+    },
+    {
+      "name" : "Personal Hotspot",
+      "pageSourceFile"  : "src/main/ets/pages/07/NavigationDemo/PageOne.ets",
+      "buildFunction" : "PageOneBuilder"
+    },
+    {
+      "name" : "Connect & Share",
+      "pageSourceFile"  : "src/main/ets/pages/07/NavigationDemo/PageTwo.ets",
+      "buildFunction" : "PageTwoBuilder"
+    },
+    {
+      "name" : "Projection",
+      "pageSourceFile"  : "src/main/ets/pages/07/NavigationDemo/PageOne.ets",
+      "buildFunction" : "PageOneBuilder"
+    },
+    {
+      "name" : "Print",
+      "pageSourceFile"  : "src/main/ets/pages/07/NavigationDemo/PageOne.ets",
+      "buildFunction" : "PageOneBuilder"
+    },
+    {
+      "name" : "VPN",
+      "pageSourceFile"  : "src/main/ets/pages/07/NavigationDemo/PageOne.ets",
+      "buildFunction" : "PageOneBuilder"
+    },
+    {
+      "name" : "Private DNS",
+      "pageSourceFile"  : "src/main/ets/pages/07/NavigationDemo/PageOne.ets",
+      "buildFunction" : "PageOneBuilder"
+    },
+    {
+      "name" : "NFC",
+      "pageSourceFile"  : "src/main/ets/pages/07/NavigationDemo/PageOne.ets",
+      "buildFunction" : "PageOneBuilder"
+    }
+  ]
+}

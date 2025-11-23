@@ -15,6 +15,7 @@
       }
     ],
     "pages": "$profile:main_pages",
+    "routerMap": "$profile:router_map",
     "abilities": [
       {
         "name": "EntryAbility",
@@ -51,6 +52,15 @@
         "description": "$string:Want2Ability_desc",
         "icon": "$media:layered_image",
         "label": "$string:Want2Ability_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background"
+      },
+      {
+        "name": "PayAbility",
+        "srcEntry": "./ets/payability/PayAbility.ets",
+        "description": "$string:PayAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:PayAbility_label",
         "startWindowIcon": "$media:startIcon",
         "startWindowBackground": "$color:start_window_background"
       }

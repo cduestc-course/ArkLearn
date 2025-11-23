@@ -5,7 +5,7 @@ import { preferences } from '@kit.ArkData'
 // import preferences from '@ohos.data.preferences'
 
 export class PreferencesClass {
-  // static代表的是静态，可以直接通过类访问
+  // static代表的是静态，可以直接通过类访问(单例模式)
   // store名称
   static defaultStore: string = 'DEFAULT_STORE'
   static firstStore: string = 'FIRST_STORE'

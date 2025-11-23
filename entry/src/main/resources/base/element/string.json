@@ -27,6 +27,14 @@
     {
       "name": "Want2Ability_label",
       "value": "label"
+    },
+    {
+      "name": "PayAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "PayAbility_label",
+      "value": "label"
     }
   ]
 }

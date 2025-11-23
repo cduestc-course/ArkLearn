@@ -15,6 +15,16 @@
     "pages/06/6.2.5",
     "pages/06/6.4",
 
-    "pages/06/MTPrac/MTIndex"
+    "pages/06/MTPrac/MTIndex",
+
+    "pages/07/7.1.1-d",
+    "pages/07/7.1.3-MainPage",
+    "pages/07/7.1.3-PayIndex",
+    "pages/07/7.2.1-a",
+    "pages/07/7.2.1-b",
+
+    "pages/07/7.2.2",
+
+    "pages/07/NavigationDemo/NavigationDemo"
   ]
 }
