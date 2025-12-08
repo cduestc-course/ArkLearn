@@ -23,8 +23,7 @@ struct RouterCase02 {
           .onClick(() => {
             router.pushUrl({
               url: 'pages/07/7.2.1-a'
-            })
-            //,router.RouterMode.Single)
+            },router.RouterMode.Single)
           })
         Button('replace跳转02')
           .onClick(() => {

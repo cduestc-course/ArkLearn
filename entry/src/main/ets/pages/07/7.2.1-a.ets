@@ -21,10 +21,10 @@ struct RouterCase01 {
           .fontWeight(FontWeight.Bold)
         Button('push跳转02')
           .onClick(() => {
+            // router.pushUrl({url:''})
             this.getUIContext().getRouter().pushUrl({
               url: 'pages/07/7.2.1-b'
-            })
-            //,router.RouterMode.Single)
+            },router.RouterMode.Single)
           })
         Button('replace跳转02')
           .onClick(() => {
@@ -41,9 +41,9 @@ struct RouterCase01 {
           })
         Button('back返回')
           .onClick(() => {
-            // this.getUIContext().getRouter().showAlertBeforeBackPage({
-            //   message: '确定要退出吗'
-            // })
+            this.getUIContext().getRouter().showAlertBeforeBackPage({
+              message: '确定要退出吗'
+            })
             this.getUIContext().getRouter().back()
           })
         Button('携带参数跳转')

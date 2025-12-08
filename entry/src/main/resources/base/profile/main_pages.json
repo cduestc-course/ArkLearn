@@ -25,6 +25,16 @@
 
     "pages/07/7.2.2",
 
-    "pages/07/NavigationDemo/NavigationDemo"
+    "pages/07/NavigationDemo/NavigationDemo",
+
+    "pages/08/8.1.3-aA",
+    "pages/08/8.1.3-aB",
+    "pages/08/8.1.3-eA",
+    "pages/08/8.1.3-eB",
+
+    "pages/08/8.1.4",
+    "pages/08/8.1.5",
+    "pages/08/8.2.1.2",
+    "pages/08/8.2.1.3"
   ]
 }

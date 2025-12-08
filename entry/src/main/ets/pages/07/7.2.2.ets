@@ -52,22 +52,28 @@ struct NavigationExample {
         .margin({ top: 12 })
       }
       .title("主标题")
-      .titleMode(NavigationTitleMode.Full)
+      // .titleMode(NavigationTitleMode.Full)
       // .titleMode(NavigationTitleMode.Mini)
+      // .titleMode(NavigationTitleMode.Free)
+      // .hideBackButton(true)
       .mode(NavigationMode.Stack)
       // .mode(NavigationMode.Split)
       .navDestination(this.pageMap)
       .menus([
         {
-          value: "", icon: $r('sys.media.ohos_ic_public_search_filled'), action: () => {
-        }
+          value: "",
+          icon: $r('sys.media.ohos_ic_public_search_filled'),
+          action: () => {}
         },
         {
-          value: "", icon: $r('sys.media.ohos_ic_public_add'), action: () => {
-        }
+          value: "",
+          icon: $r('sys.media.ohos_ic_public_add'),
+          action: () => {}
         },
         {
-          value: "拍照", icon: $r('sys.media.ohos_ic_public_camera'), action: () => {
+          value: "拍照",
+          icon: $r('sys.media.ohos_ic_public_camera'),
+          action: () => {
         }
         },
         {

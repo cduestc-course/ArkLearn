@@ -2,6 +2,7 @@ import { AbilityConstant, ConfigurationConstant, UIAbility, Want } from '@kit.Ab
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { window } from '@kit.ArkUI';
 import { PreferencesClass } from '../pages/06/6.2.6';
+import {  KeyboardAvoidMode } from '@kit.ArkUI';
 
 const DOMAIN = 0x0000;
 
@@ -34,7 +35,16 @@ export default class EntryAbility extends UIAbility {
     // pages/07/7.2.1-a
     // pages/07/7.2.2
     // pages/07/NavigationDemo/NavigationDemo
-    windowStage.loadContent('pages/07/NavigationDemo/NavigationDemo', (err) => {
+
+    // pages/08/8.1.3-aA
+    // pages/08/8.1.3-eA
+
+    // pages/08/8.1.4
+    // pages/08/8.1.5
+
+    // pages/08/8.2.1.2
+    // pages/08/8.2.1.3
+    windowStage.loadContent('pages/08/8.2.1.3', (err) => {
       if (err.code) {
         hilog.error(DOMAIN, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err));
         return;
@@ -42,6 +52,10 @@ export default class EntryAbility extends UIAbility {
       hilog.info(DOMAIN, 'testTag', 'Succeeded in loading the content.');
 
       PersistentStorage.persistProp('cart_list', [])
+
+      // 8.1.4
+      // windowStage.getMainWindowSync().getUIContext()
+      //   .setKeyboardAvoidMode(KeyboardAvoidMode.RESIZE)
     });
 
     // 6.4
